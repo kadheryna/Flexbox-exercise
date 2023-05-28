@@ -17,12 +17,10 @@
 			rel="stylesheet"
 		/>
 	</head>
-	<body
-		class="flex flex-col place-content-center"
-	>
+	<body class="flex flex-col gap-10">
 		<!-- SECTION 1 -->
 		<section
-			class="grid grid-cols-1s md:grid-cols-2 text-center md:text-left m-10"
+			class="max-w-[1200px] m-auto mt-2 grid grid-cols-1s md:grid-cols-2 text-center md:text-left"
 		>
 			<div class="grid place-content-center m-10">
 				<h1 class="text-darkest text-5xl font-bold self-center">
@@ -34,9 +32,9 @@
 					services.
 				</p>
 			</div>
-			<div class="grid place-content-center grid-rows-3 px-6">
+			<div class="grid place-content-center gap-7">
 				<div
-					class="grid md:grid-cols-2 gap-4 my-4 md:m-y-0 rounded-xl shadow-lg py-3 px-6 bg-light items-baseline place-content-center"
+					class="grid gap-4 md:grid-cols-2 md:m-y-0 rounded-xl shadow-lg py-3 px-6 bg-light lg:-translate-x-8"
 				>
 					<!-- STARS -->
 					<div class="inline-grid grid-cols-5 place-items-center">
@@ -51,7 +49,7 @@
 					<p class="text-darkest font-semibold">Rated 5 Stars in Reviews</p>
 				</div>
 				<div
-					class="grid md:grid-cols-2 gap-4 items-baseline my-4 rounded-xl shadow-lg py-3 px-6 md:translate-x-5 bg-light place-content-center"
+					class="grid gap-4 md:grid-cols-2 md:m-y-0 rounded-xl shadow-lg py-3 px-6 bg-light transform"
 				>
 					<div class="inline-grid grid-cols-5 place-items-center">
 						<img src="./Images/icon-star.svg" alt="star" /><img
@@ -65,7 +63,7 @@
 					<p class="text-darkest font-semibold">Rated 5 Stars in Report Guru</p>
 				</div>
 				<div
-					class="grid md:grid-cols-2 gap-4 my-4 items-baseline rounded-xl shadow-lg py-3 px-6 md:translate-x-10 bg-light place-content-center"
+					class="grid gap-4 md:grid-cols-2 md:m-y-0 rounded-xl shadow-lg py-3 px-6 bg-light lg:translate-x-10"
 				>
 					<div class="inline-grid grid-cols-5 place-items-center">
 						<img src="./Images/icon-star.svg" alt="star" /><img
@@ -81,46 +79,59 @@
 			</div>
 		</section>
 		<!-- SECTION 2 -->
-		<section class="grid grid-cols-1 md:grid-cols-3 gap-3 justify-around m-10">
-			<div class="bg-person md:max-w-md rounded-xl p-8 shadow-lg">
+		<section
+			class="max-w-[1200px] mb-2 grid grid-cols-1 md:grid-cols-3 gap-3 m-auto justify-items-center"
+		>
+			<div
+				class="bg-person w-[90%] rounded-xl grid grid-cols-1 md:grid-cols-2 place-items-center gap-y-4 p-7 shadow-lg text-center"
+			>
 				<img
-					class="rounded-full float-left clear-both mr-6"
+					class="md:place-self-start rounded-full float-left"
 					src="./Images/image-colton.jpg"
 					alt="Colton"
 				/>
-				<h2 class="text-medium text-xl">Colton Smith</h2>
-				<h3 class="text-dark text-lg">Verified Buyer</h3>
-				<p class="text-light text-base mt-12">
+				<div>
+					<h2 class="text-medium text-xl">Colton Smith</h2>
+					<h3 class="text-dark text-lg">Verified Buyer</h3>
+				</div>
+				<p class="md:col-span-2 text-light text-base md:text-left">
 					"We needed the same printed design as the one we had ordered a week
 					prior. Not only did they find the original order, but we also received
 					it in time. Excellent!"
 				</p>
 			</div>
-			<div class="bg-person md:max-w-md rounded-xl translate-y-6 p-8 shadow-lg">
+
+			<div
+				class="bg-person w-[90%] rounded-xl grid grid-cols-1 md:grid-cols-2 place-items-center gap-y-4 p-7 shadow-lg text-center"
+			>
 				<img
-					class="rounded-full float-left clear-both mr-6"
+					class="md:place-self-start rounded-full float-left"
 					src="./Images/image-irene.jpg"
 					alt="Irene"
 				/>
-				<h2 class="text-medium text-xl">Irene Roberts</h2>
-				<h3 class="text-dark text-lg">Verified Buyer</h3>
-				<p class="text-light text-base mt-12">
+				<div>
+					<h2 class="text-medium text-xl">Irene Roberts</h2>
+					<h3 class="text-dark text-lg">Verified Buyer</h3>
+				</div>
+				<p class="md:col-span-2 text-light text-base md:text-left">
 					"Customer service is always excellent and very quick turn around.
 					Completely delighted with the simplicity of the purchase and the speed
 					of delivery."
 				</p>
 			</div>
 			<div
-				class="bg-person md:max-w-md rounded-xl translate-y-10 p-8 shadow-lg"
+				class="bg-person w-[90%] rounded-xl grid grid-cols-1 md:grid-cols-2 place-items-center gap-y-4 p-7 shadow-lg text-center"
 			>
 				<img
-					class="rounded-full float-left clear-both mr-6"
+					class="md:place-self-start rounded-full float-left"
 					src="./Images/image-anne.jpg"
 					alt="Anne"
 				/>
-				<h2 class="text-medium text-xl">Anne Wallace</h2>
-				<h3 class="text-dark text-lg">Verified Buyer</h3>
-				<p class="text-light text-base mt-12">
+				<div>
+					<h2 class="text-medium text-xl">Anne Wallace</h2>
+					<h3 class="text-dark text-lg">Verified Buyer</h3>
+				</div>
+				<p class="md:col-span-2 text-light text-base md:text-left">
 					"Put an order with this company and can only praise them for the very
 					high standard. Will definitely use them again and recommend them to
 					everyone!"
