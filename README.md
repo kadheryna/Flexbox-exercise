@@ -10,12 +10,8 @@ Users should be able to:
 
 ![image](https://user-images.githubusercontent.com/72280779/132956668-0520f8e4-89b9-4bbc-b9c8-6b8afe63eb84.png)
 
-# Links
-
-- Live Site URL: (https://kadheryna.github.io/Flexbox-exercise/)
-
 # Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
-- CSS Grid
+- Tailwind
+- CSS grid and flexbox
